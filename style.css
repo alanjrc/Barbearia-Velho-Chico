@@ -1,0 +1,379 @@
+header{
+    background: #000000;
+    padding: 20px 0px; 
+    transition: 0.5s;
+}
+
+#box{
+    position: relative;
+    width: 960px;
+    margin: 0 auto;
+}
+
+#box h1 img{
+    width: 15em;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif; 
+    
+}
+
+
+nav ul{
+    position: absolute; 
+    top: 110px; 
+    right: 0px;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px; 
+    
+}
+
+nav a:hover{
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+nav a{
+    text-transform: uppercase;
+    font-weight: bold;
+    color:#b38137;
+    text-decoration: none;
+    font-size: 22px;
+}
+
+#banner{
+    width: 100%;
+    display: block;
+    margin: auto; 
+}
+
+main{
+    background: #FEFEFE;
+}
+
+.main{
+    margin: 30px 2em;
+
+}
+
+.title_main{
+    text-align: center;
+    font-size: 2em; 
+    clear: left;
+    margin: 15px 0;
+
+}
+
+#cut{
+    width: 180px;
+    float: left;
+    margin: 0 10px 0px 0px;
+}
+
+.main p{
+    margin: 1em 0;
+}
+
+
+.main strong{
+    font-weight: bolder;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #666666;
+}
+
+.local{
+   text-align: center; 
+    
+}
+.benefits-video{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.video{
+    position: relative;
+    left: 100px;
+}
+
+.local h2{
+    text-align: center;
+    margin: 2em 0 10px 0;
+    font-size: 2em; 
+}
+
+.local > p{ 
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    color: rgba(0, 0, 0, 0.5);
+    text-shadow: 2px 2px 2px #777777;
+}
+
+.map{
+    margin: 30px 30px 0 30px;
+}
+
+.products{
+    width: 960px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.products li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px; 
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px; 
+}
+
+.products li:hover{
+    border-color:#b38137;
+}
+
+.products li:active{
+    border-color: #339900;
+}
+
+h2{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.products li > img{
+    width: 10em;
+}
+
+.products li:hover h2{
+    font-size: 35px;
+}
+
+.product-description{
+    font-size: 20px;
+
+}
+
+.product-price{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+#four{
+    width: 100px;
+    float: left;
+    margin: 15px 30px 0 calc(50% - 150px);
+    box-shadow: 10px 10px 5px black;
+}
+
+#four:hover{
+    opacity: 0.2;
+    transition: 1s;
+}
+
+#four:active{
+    opacity: 1;
+}
+
+.benefits-video{
+    background: #666666;
+    padding-top: 30px;
+    transition: 0.5s;
+}
+
+
+.benefits ul{
+    background: #666666;
+    margin-top: 5px;
+    font-size: 20px;
+    display: inline-block;
+}
+
+.benefits li{
+    padding: 5px;
+}   
+
+.benefits li:before{
+    content: "👍";
+}
+
+.benefits li:first-child{
+    font-style: normal;
+}
+
+.benefits li::first-letter{
+    font-style: normal;
+}
+
+.benefits li:nth-child(3){
+    font-weight: no;    
+}
+
+.video{
+    width: 560px;
+    margin: 0 auto;
+    padding: 30px
+}
+
+#banner_below{
+    width: 100%;
+    height: 600px;
+    
+}
+
+footer{
+    text-align: center;
+    background: url("imgs/bg.jpg");
+    line-height: 2;
+    margin-top: -5px;   
+}
+
+footer img{
+    margin-top: 20px;
+    width: 15em;
+}
+
+.copyright{
+    color: #FFFFFF;
+}
+
+form{
+    margin: 40px auto;
+    width: 650px;
+}
+
+form label, form legend{
+    display: block;
+    font-size: 20px;
+    margin: 10px 0;
+    position: relative;
+}
+
+.input-pattern{
+    display: block;
+    padding: 10px 0;
+    position: relative;
+    width: 100%;
+    margin: 10px 0;
+}
+
+.checkbox{
+    margin: 20px 0px;
+}
+
+.save{
+    width: 650px;
+    margin: 20px 0;
+    padding: 15px;
+    background:#fffc3f;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer; 
+    transition: 2s all;
+}
+
+.save:hover{
+    background:#b38137;
+    transform: scale(1.1);
+}
+
+table{
+    margin: 20px auto 40px auto;    
+}
+
+thead, th{
+    background: #000000;
+    color: #b38137;
+    font-weight: bold;
+    font-size: 30px;
+    border: 1px solid #000000;
+}
+
+td{
+    font-size: 20px;
+    border: 1px solid #000000;
+    padding: 5px;
+    
+}
+
+
+@media screen and (max-width: 960px){
+    #box, .local, header, .main, body, .video, .map{
+        width: auto;
+        
+    }
+    nav ul{
+        position: static;
+    }
+    #box, .benefits, #four{
+        text-align: center;
+        margin: 0;
+        float: unset;
+    }
+
+    .benefits li{
+        text-align:start;
+    }
+
+    .main{
+        margin: 30px 2em;
+    }
+    #cut{
+        margin: 5px 10px 0px 0px;
+    }
+
+    .products{
+        width: auto;
+    }
+
+    .products li{
+        text-align: center;
+        display: inline-block;
+        width: 100%;
+        margin: 30px auto;
+        padding: 0 0; 
+        box-sizing: border-box;
+        border: 2px solid #000000;
+        border-radius: 10px; 
+    }
+
+    .products h2{
+        margin: 10px 0;
+    }
+
+    .products li > img{
+        width: 8em;
+    }
+    
+    .product-description{
+        margin: 0 20px 0 20px;
+    }
+
+    .product-price{
+        margin-bottom: 10px;
+    }
+
+    form{
+        width: 80%;
+    }
+
+    .save{
+        width: 100%;
+        margin: 20px auto 0 auto;
+    }
+    
+}
